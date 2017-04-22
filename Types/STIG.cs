@@ -1,120 +1,120 @@
-public class Status
+class Status
 {
-    public string date { get; set; }
-    public string text { get; set; }
+    date: string;
+    text: string;
 }
 
-public class Notice
+class Notice
 {
-    public string id { get; set; }
-    public string xmllang { get; set; }
+    id: string;
+    xmllang: string;
 }
 
-public class Reference
+class Reference
 {
-    public string dcpublisher { get; set; }
-    public string dcsource { get; set; }
+    dcpublisher: string;
+    dcsource: string;
 }
 
-public class Plaintext
+class Plaintext
 {
-    public string id { get; set; }
-    public string text { get; set; }
+    id: string;
+    text: string;
 }
 
-public class Select
+class Select
 {
-    public string idref { get; set; }
-    public string selected { get; set; }
+    idref: string;
+    selected: string;
 }
 
-public class Profile
+class Profile
 {
-    public string id { get; set; }
-    public string title { get; set; }
-    public string description { get; set; }
-    public List<Select> select { get; set; }
+    id: string;
+    title: string;
+    description: string;
+    select: Select[];
 }
 
-public class Reference2
+class Reference2
 {
-    public string dctitle { get; set; }
-    public string dcpublisher { get; set; }
-    public string dctype { get; set; }
-    public string dcsubject { get; set; }
-    public string dcidentifier { get; set; }
+    dctitle: string;
+    dcpublisher: string;
+    dctype: string;
+    dcsubject: string;
+    dcidentifier: string;
 }
 
-public class Fixtext
+class Fixtext
 {
-    public string fixref { get; set; }
-    public string text { get; set; }
+    fixref: string;
+    text: string;
 }
 
-public class Fix
+class Fix
 {
-    public string id { get; set; }
+    id: string;
 }
 
-public class Checkcontentref
+class Checkcontentref
 {
-    public string name { get; set; }
-    public string href { get; set; }
+    name: string;
+    href: string;
 }
 
-public class Check
+class Check
 {
-    public string system { get; set; }
-    public Checkcontentref checkcontentref { get; set; }
-    public string checkcontent { get; set; }
+    system: string;
+    checkcontentref: string;
+    checkcontent: string;
 }
 
-public class Rule
+class Rule
 {
-    public string id { get; set; }
-    public string severity { get; set; }
-    public string weight { get; set; }
-    public string version { get; set; }
-    public string title { get; set; }
-    public string description { get; set; }
-    public Reference2 reference { get; set; }
-    public object ident { get; set; }
-    public Fixtext fixtext { get; set; }
-    public Fix fix { get; set; }
-    public Check check { get; set; }
+    id: string;
+    severity: string;
+    weight: string;
+    version: string;
+    title: string;
+    description: string;
+    reference: Reference2;
+    ident: object;
+    fixtext: Fixtext;
+    fix: Fix;
+    check: Check;
 }
 
-public class Group
+class Group
 {
-    public string id { get; set; }
-    public string title { get; set; }
-    public string description { get; set; }
-    public Rule Rule { get; set; }
+    id: string;
+    title: string;
+    description: string;
+    Rule: Rule;
 }
 
-public class Benchmark
+class Benchmark
 {
-    public string xmlnsdsig { get; set; }
-    public string xmlnsxsi { get; set; }
-    public string xmlnscpe { get; set; }
-    public string xmlnsxhtml { get; set; }
-    public string xmlnsdc { get; set; }
-    public string xmlns { get; set; }
-    public string id { get; set; }
-    public string xmllang { get; set; }
-    public string xsischemaLocation { get; set; }
-    public Status status { get; set; }
-    public string title { get; set; }
-    public string description { get; set; }
-    public Notice notice { get; set; }
-    public Reference reference { get; set; }
-    public Plaintext plaintext { get; set; }
-    public string version { get; set; }
-    public List<Profile> Profile { get; set; }
-    public List<Group> Group { get; set; }
+    xmlnsdsig: string;
+    xmlnsxsi: string;
+    xmlnscpe: string;
+    xmlnsxhtml: string;
+    xmlnsdc: string;
+    xmlns: string;
+    id: string;
+    xmllang: string;
+    xsischemaLocation: string;
+    status: Status;
+    title: string;
+    description: string;
+    notice: Notice;
+    reference: Reference;
+    plaintext: Plaintext;
+    version: string;
+    Profile: Profile[];
+    Group: Group[];
 }
 
-public class RootObject
+class STIG
 {
-    public Benchmark Benchmark { get; set; }
+    Benchmark: Benchmark;
 }

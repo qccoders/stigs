@@ -71,12 +71,12 @@ class Check
 
 class Rule
 {
-    string id;
-    string severity;
-    string weight;
-    string version;
-    string title;
-    string description;
+    id: string;
+    severity: string;
+    weight: string;
+    version: string;
+    title: string;
+    description: string;
     reference: Reference2;
     ident: object;
     fixtext: Fixtext;

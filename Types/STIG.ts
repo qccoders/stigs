@@ -114,7 +114,7 @@ class Benchmark
     Group: Group[];
 }
 
-class RootObject
+class STIG
 {
     Benchmark: Benchmark;
 }

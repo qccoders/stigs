@@ -23,7 +23,7 @@
       "dcpublisher": "DISA",
       "dcsource": "STIG.DOD.MIL"
     },
-    "plain-text": {
+    "plaintext": {
       "id": "release-info",
       "text": "Release: 1 Benchmark Date: 25 Jul 2016"
     },
@@ -10598,11 +10598,11 @@
           "fix": { "id": "F-75409r1_fix" },
           "check": {
             "system": "C-69663r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           For production environments;  Review the system documentation, identify the number of application user logon sessions allowed per user, identify the methods utilized for user session management or have application administrator describe how the application implements user session management.
 
           Utilize the management interface that is used to set the user session values, or examine configuration files in order to review user session configuration settings.
@@ -10658,11 +10658,11 @@
           "fix": { "id": "F-75411r1_fix" },
           "check": {
             "system": "C-69665r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application design documentation and interview application administrator to identify how the application makes use of temporary client storage and cookies.  Identify cookie and web storage locations on the client.  Clear all browser cookies and web cache.
 
           Log on to the application and perform several standard operations, noting if the application ever prompts the user to accept a cookie. If prompted by the browser to save the user ID and password (decline to save the user ID and password), this is a finding.
@@ -10718,11 +10718,11 @@
           "fix": { "id": "F-75413r1_fix" },
           "check": {
             "system": "C-69667r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative to demonstrate the configuration setting where the idle time out value is defined.
 
           Alternatively, logon with a regular application user account and let the session sit idle for 15 minutes.
@@ -10772,11 +10772,11 @@
           "fix": { "id": "F-75415r1_fix" },
           "check": {
             "system": "C-69669r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative to demonstrate the application configuration setting where the idle time out value is defined for admin users.
 
           Alternatively, logon with an admin user account and let the session sit idle for 10 minutes.
@@ -10822,11 +10822,11 @@
           "fix": { "id": "F-75417r1_fix" },
           "check": {
             "system": "C-69671r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application does not provide an interface for interactive user access, this is not applicable.
 
           Log on to the application with a valid user account. Examine the user interface. Identify the command or link that provides the logoff function.
@@ -10874,11 +10874,11 @@
           "fix": { "id": "F-75419r1_fix" },
           "check": {
             "system": "C-69673r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application does not provide an interface for interactive user access, this is not applicable.
 
           Log on to the application with a valid user account. Examine the user interface. Identify the command or link that provides the logoff function.
@@ -10942,11 +10942,11 @@
           "fix": { "id": "F-75421r1_fix" },
           "check": {
             "system": "C-69675r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Determine if the application processes classified, FOUO, or other data that is required to be marked and identify if the application requirements specify data markings of any other types of data.
@@ -11004,11 +11004,11 @@
           "fix": { "id": "F-75423r1_fix" },
           "check": {
             "system": "C-69677r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify if the application requirements include data marking.  Also determine if the application processes classified, FOUO or other data that is required to be marked.
@@ -11066,11 +11066,11 @@
           "fix": { "id": "F-75425r1_fix" },
           "check": {
             "system": "C-69679r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify if the application requirements include data marking also determine if the application processes classified, FOUO or other data that is required to be marked.
@@ -11126,11 +11126,11 @@
           "fix": { "id": "F-75427r1_fix" },
           "check": {
             "system": "C-69681r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator.
 
           Identify the application encryption capabilities and methods for implementing encryption protection.
@@ -11184,11 +11184,11 @@
           "fix": { "id": "F-75429r1_fix" },
           "check": {
             "system": "C-69683r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator.
 
           Identify the application encryption capabilities and methods for implementing encryption protection.
@@ -11248,11 +11248,11 @@
           "fix": { "id": "F-75431r1_fix" },
           "check": {
             "system": "C-69685r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, system security plan, application architecture diagrams and interview the application administrator.
 
           Review the design document for web services using SOAP messages.
@@ -11302,11 +11302,11 @@
           "fix": { "id": "F-75449r1_fix" },
           "check": {
             "system": "C-69687r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document. Review the design document for web services using WS-Security tokens.
 
           If the application does not utilize WS-Security tokens, this check is not applicable.
@@ -11352,11 +11352,11 @@
           "fix": { "id": "F-75451r1_fix" },
           "check": {
             "system": "C-69689r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services.
@@ -11408,11 +11408,11 @@
           "fix": { "id": "F-75453r1_fix" },
           "check": {
             "system": "C-69691r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services using SAML assertions.
@@ -11464,11 +11464,11 @@
           "fix": { "id": "F-75455r1_fix" },
           "check": {
             "system": "C-69693r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services using WS-Security tokens.
@@ -11526,11 +11526,11 @@
           "fix": { "id": "F-75457r1_fix" },
           "check": {
             "system": "C-69695r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services using SAML assertions.
@@ -11592,11 +11592,11 @@
           "fix": { "id": "F-75459r1_fix" },
           "check": {
             "system": "C-69697r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services using SAML assertions.
@@ -11653,11 +11653,11 @@
           "fix": { "id": "F-75461r1_fix" },
           "check": {
             "system": "C-69699r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services using SAML assertions.
@@ -11705,11 +11705,11 @@
           "fix": { "id": "F-75465r1_fix" },
           "check": {
             "system": "C-69703r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the design document.
 
           Review the design document for web services using SAML assertions.
@@ -11767,11 +11767,11 @@
           "fix": { "id": "F-75467r1_fix" },
           "check": {
             "system": "C-69705r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify the account management methods, processes and procedures that are used.
@@ -11825,11 +11825,11 @@
           "fix": { "id": "F-75469r1_fix" },
           "check": {
             "system": "C-69707r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and determine if there is a requirement for shared or group accounts.
 
           If there is no official requirement for shared or group application accounts, this requirement is not applicable.
@@ -11887,11 +11887,11 @@
           "fix": { "id": "F-75471r1_fix" },
           "check": {
             "system": "C-69709r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If official documentation exist that disallows the use of temporary user accounts within the application, this requirement is not applicable.
 
           Examine the application documentation or interview the application representative to identify how the application users are managed.
@@ -11947,11 +11947,11 @@
           "fix": { "id": "F-75475r1_fix" },
           "check": {
             "system": "C-69713r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation or interview the application representative to identify how the application users are managed.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory (AD) for user management or if the application manages user accounts within the application.
@@ -12007,11 +12007,11 @@
           "fix": { "id": "F-75477r1_fix" },
           "check": {
             "system": "C-69715r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and identify any valid application accounts that are required in order for the application to operate. Accounts the application itself uses in order to function are not in scope for this requirement.
 
           Have the application administrator generate a list of all application users. This should include relevant user metadata such as phone numbers or department identifiers.
@@ -12065,11 +12065,11 @@
           "fix": { "id": "F-75479r1_fix" },
           "check": {
             "system": "C-69717r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation to identify how the application users are managed.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12129,11 +12129,11 @@
           "fix": { "id": "F-75481r1_fix" },
           "check": {
             "system": "C-69719r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation to identify how the application users are managed.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12193,11 +12193,11 @@
           "fix": { "id": "F-75483r1_fix" },
           "check": {
             "system": "C-69721r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation to identify how the application users are managed.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12257,11 +12257,11 @@
           "fix": { "id": "F-75485r1_fix" },
           "check": {
             "system": "C-69723r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation to identify how the application users are managed.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12317,11 +12317,11 @@
           "fix": { "id": "F-75487r1_fix" },
           "check": {
             "system": "C-69725r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application and system documentation.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12373,11 +12373,11 @@
           "fix": { "id": "F-75489r1_fix" },
           "check": {
             "system": "C-69727r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application and system documentation.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12431,11 +12431,11 @@
           "fix": { "id": "F-75491r1_fix" },
           "check": {
             "system": "C-69729r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application and system documentation.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12489,11 +12489,11 @@
           "fix": { "id": "F-75493r1_fix" },
           "check": {
             "system": "C-69731r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application and system documentation.
 
           Interview the application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12551,11 +12551,11 @@
           "fix": { "id": "F-75495r1_fix" },
           "check": {
             "system": "C-69733r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation or interview the application representative to identify how the application users are managed.
 
           Identify the location of the audit logs and review the end of the logs.
@@ -12607,11 +12607,11 @@
           "fix": { "id": "F-75497r1_fix" },
           "check": {
             "system": "C-69735r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application and system documentation.
 
           Interview application administrator and determine if the application is configured to utilize a centralized user management system like Active Directory for user management or if the application manages user accounts within the application.
@@ -12671,11 +12671,11 @@
           "fix": { "id": "F-75499r1_fix" },
           "check": {
             "system": "C-69737r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the documentation that identifies the application data elements, the protection requirements, and any associated steps that are being taken to protect the data.
 
           If the application data protection requirements are not documented, this is a finding.
@@ -12727,11 +12727,11 @@
           "fix": { "id": "F-75501r1_fix" },
           "check": {
             "system": "C-69739r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the security plan, application and system documentation and interview the application administrator to identify data mining protections that are required of the application.
 
           If there are no data mining protections required, this requirement is not applicable.
@@ -12805,11 +12805,11 @@
           "fix": { "id": "F-75503r1_fix" },
           "check": {
             "system": "C-69741r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Review application data protection requirements.
@@ -12873,11 +12873,11 @@
           "fix": { "id": "F-75505r1_fix" },
           "check": {
             "system": "C-69743r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Review application data protection requirements and application integrated access control methods.
@@ -12943,11 +12943,11 @@
           "fix": { "id": "F-75507r1_fix" },
           "check": {
             "system": "C-69745r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application and system administrators.
 
           Review application features and functions to determine if the application is designed to control the flow of information within the system.
@@ -13018,11 +13018,11 @@
           "fix": { "id": "F-75509r1_fix" },
           "check": {
             "system": "C-69747r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application and system administrators.
 
           Identify application features and functions to determine if the application is designed to control the flow of information between interconnected systems.
@@ -13091,11 +13091,11 @@
           "fix": { "id": "F-75511r1_fix" },
           "check": {
             "system": "C-69749r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Identify the application user account(s) that the application uses to run. These accounts include the application processes (defined by Control Panel Services (Windows) or ps –ef (UNIX)) or for an n-tier application, the account that connects from one service (such as a web server) to another (such as a database server).
 
           Determine the OS user groups in which each account is a member.
@@ -13163,11 +13163,11 @@
           "fix": { "id": "F-75513r3_fix" },
           "check": {
             "system": "C-69751r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation or interview the application representative and identify if the application utilizes an account in order to operate.
 
           Determine the OS user groups in which each application account is a member.  List the user rights assigned to these users and groups using relevant OS commands and evaluate whether any of them provide admin rights or if they are unnecessary or excessive.
@@ -13215,11 +13215,11 @@
           "fix": { "id": "F-75515r1_fix" },
           "check": {
             "system": "C-69753r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Log on to the application as an administrative user.
 
           Identify functionality within the application that requires utilizing the admin role.
@@ -13277,11 +13277,11 @@
           "fix": { "id": "F-75517r1_fix" },
           "check": {
             "system": "C-69755r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           All testing must be performed within a 15-minute window.
 
           Log on to the application with a test user account.
@@ -13351,11 +13351,11 @@
           "fix": { "id": "F-75521r1_fix" },
           "check": {
             "system": "C-69759r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application administrator and identify the approved process for unlocking user accounts.
 
           The process may involve a manual or automated reset after the locked out user has identified themselves using standard user identification processes outlined in the vulnerability discussion.
@@ -13423,11 +13423,11 @@
           "fix": { "id": "F-75523r1_fix" },
           "check": {
             "system": "C-69761r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Log on to the application as a user.
 
           Observe the screen and ensure the DoD-approved banner is displayed prior to obtaining access to the application. Refer to the vulnerability discussion for the approved text.
@@ -13477,11 +13477,11 @@
           "fix": { "id": "F-75525r1_fix" },
           "check": {
             "system": "C-69763r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application has no interactive user interface, this requirement is not applicable.
 
           Access the application and authenticate if necessary. Verify the banner is displayed and action must be taken to accept terms of use.
@@ -13567,11 +13567,11 @@
           "fix": { "id": "F-75527r1_fix" },
           "check": {
             "system": "C-69765r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement only applies to publicly accessible applications. If the application is not publicly accessible, this requirement is not applicable.
 
           Access the application and observe the screen to ensure the DoD-approved banner is displayed prior to obtaining full access to the application. Refer to the vulnerability discussion for the approved banner text.
@@ -13619,11 +13619,11 @@
           "fix": { "id": "F-75529r1_fix" },
           "check": {
             "system": "C-69767r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           If the application does not provide a user interface, this requirement is not applicable.
@@ -13683,11 +13683,11 @@
           "fix": { "id": "F-75531r1_fix" },
           "check": {
             "system": "C-69769r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the design requirements if available and interview the application administrator.
 
           Identify application services or application commands that are formerly required and designed to provide non-repudiation services (e.g., digital signatures).
@@ -13745,11 +13745,11 @@
           "fix": { "id": "F-75533r1_fix" },
           "check": {
             "system": "C-69771r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Determine if the application has the ability to compile audit records from multiple systems or system components.
@@ -13805,11 +13805,11 @@
           "fix": { "id": "F-75535r1_fix" },
           "check": {
             "system": "C-69775r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify the auditing configuration capabilities of the application.
 
           Access the audit management settings of the application as an authorized user and evaluate the verbosity capabilities of the log settings.
@@ -13869,11 +13869,11 @@
           "fix": { "id": "F-75537r1_fix" },
           "check": {
             "system": "C-69777r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Access the management interface for the application or configuration file and evaluate the log/audit management settings.
 
           Determine if the setting that enables session ID creation event auditing is activated.
@@ -13929,11 +13929,11 @@
           "fix": { "id": "F-75539r1_fix" },
           "check": {
             "system": "C-69779r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Access the management interface for the application or configuration file and evaluate the log/audit management settings.
 
           Determine if the setting that enables session ID destruction event auditing is activated.
@@ -13993,11 +13993,11 @@
           "fix": { "id": "F-75541r2_fix" },
           "check": {
             "system": "C-69781r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the system admin and review the application documentation.
 
           Identify any web pages or application functionality where a user's privileges or permissions will change. This is most likely to occur during the authentication stages.
@@ -14059,11 +14059,11 @@
           "fix": { "id": "F-75543r1_fix" },
           "check": {
             "system": "C-69783r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application logs and identify application logging format. Using the format of the log and the requisite search data as a guide to create your search, create search strings that could successfully identify the existence of passwords, session IDs, or other sensitive information such as SSN.
 
           Utilizing the UNIX grep-based search utility include the following examples which are meant to illustrate the purpose of the requirement.
@@ -14133,11 +14133,11 @@
           "fix": { "id": "F-75545r1_fix" },
           "check": {
             "system": "C-69785r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify log locations for application session activity.
 
           Open the log file that tracks user session activity.
@@ -14191,11 +14191,11 @@
           "fix": { "id": "F-75547r1_fix" },
           "check": {
             "system": "C-69787r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application logs.
 
           If the time the event occurred is not included as part of the event, this is a finding.
@@ -14251,11 +14251,11 @@
           "fix": { "id": "F-75549r1_fix" },
           "check": {
             "system": "C-69789r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify log locations for application session activity.
 
           Open the log file that tracks user session activity.
@@ -14317,11 +14317,11 @@
           "fix": { "id": "F-75551r1_fix" },
           "check": {
             "system": "C-69791r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify where audit logs are stored.
 
           Review audit logs and determine if the IP address information of systems that connect to the application is kept in the logs.
@@ -14367,11 +14367,11 @@
           "fix": { "id": "F-75553r1_fix" },
           "check": {
             "system": "C-69793r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application logs.
 
           Connect to the application and perform application activity that is allowed by the user such as accessing data or running reports.
@@ -14423,11 +14423,11 @@
           "fix": { "id": "F-75555r1_fix" },
           "check": {
             "system": "C-69795r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application admin to identify application management interfaces and features.
 
           Access the application management utility and create a test user account or use the account of a regular unprivileged user who is cooperating with the testing.
@@ -14483,11 +14483,11 @@
           "fix": { "id": "F-75557r1_fix" },
           "check": {
             "system": "C-69797r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -14544,11 +14544,11 @@
           "fix": { "id": "F-75559r1_fix" },
           "check": {
             "system": "C-69799r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator. Identify where the application logs are stored.
 
           Identify application functionality that provides privilege escalation or access to additional security levels within the application.
@@ -14606,11 +14606,11 @@
           "fix": { "id": "F-75561r1_fix" },
           "check": {
             "system": "C-69803r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator. Identify where the application logs are stored.
 
           Identify any data protections that are required.
@@ -14670,11 +14670,11 @@
           "fix": { "id": "F-75563r1_fix" },
           "check": {
             "system": "C-69805r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application admin to identify application management interfaces and features.
 
           Access the application management utility and create a test user account or use the account of a regular privileged user who is cooperating with the testing.
@@ -14730,11 +14730,11 @@
           "fix": { "id": "F-75565r1_fix" },
           "check": {
             "system": "C-69807r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -14793,11 +14793,11 @@
           "fix": { "id": "F-75567r1_fix" },
           "check": {
             "system": "C-69809r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -14855,11 +14855,11 @@
           "fix": { "id": "F-75569r1_fix" },
           "check": {
             "system": "C-69811r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -14921,11 +14921,11 @@
           "fix": { "id": "F-75571r1_fix" },
           "check": {
             "system": "C-69813r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application admin to identify application management interfaces and features.
 
           Access the application management utility and create a test user account or use the account of a regular privileged user who is cooperating with the testing.
@@ -14983,11 +14983,11 @@
           "fix": { "id": "F-75573r1_fix" },
           "check": {
             "system": "C-69815r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -15045,11 +15045,11 @@
           "fix": { "id": "F-75575r1_fix" },
           "check": {
             "system": "C-69817r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -15105,11 +15105,11 @@
           "fix": { "id": "F-75577r1_fix" },
           "check": {
             "system": "C-69819r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify where the application logs are stored.
@@ -15173,11 +15173,11 @@
           "fix": { "id": "F-75579r1_fix" },
           "check": {
             "system": "C-69821r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application logs.
 
           Authenticate to the application and observe if the log includes an entry to indicate the user’s authentication was successful.
@@ -15231,11 +15231,11 @@
           "fix": { "id": "F-75583r1_fix" },
           "check": {
             "system": "C-69825r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application logs.
 
           Authenticate to the application as a privileged user and observe if the log includes an entry to indicate the user’s authentication was successful.
@@ -15281,11 +15281,11 @@
           "fix": { "id": "F-75585r1_fix" },
           "check": {
             "system": "C-69827r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application logs.
 
           Initiate a user session and observe if the log includes a time stamp showing the start of the session.
@@ -15339,11 +15339,11 @@
           "fix": { "id": "F-75587r1_fix" },
           "check": {
             "system": "C-69829r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify log locations.
 
           Access the application logs.
@@ -15394,11 +15394,11 @@
           "fix": { "id": "F-75589r1_fix" },
           "check": {
             "system": "C-69831r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify if the application implements a direct access feature or function that allows users to directly access the underlying OS.
@@ -15462,11 +15462,11 @@
           "fix": { "id": "F-75591r1_fix" },
           "check": {
             "system": "C-69833r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Log on to the application as an administrative user.
 
           Navigate to the user account management functionality. If no user management capability exists within the application, refer to the Enterprise Active Directory or LDAP user management interfaces.
@@ -15524,11 +15524,11 @@
           "fix": { "id": "F-75593r1_fix" },
           "check": {
             "system": "C-69835r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application documentation and interview the application administrator to identify session capture capabilities within the application.
 
           If the application or mission requirements do not specify the capability for authorized users to select a user session to capture or hear user sessions, this requirement does not apply.
@@ -15578,11 +15578,11 @@
           "fix": { "id": "F-75595r1_fix" },
           "check": {
             "system": "C-69837r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Examine the application design documentation and interview the application administrator to identify application logging behavior.
 
           If the application is writing to an existing log or log file:
@@ -15642,11 +15642,11 @@
           "fix": { "id": "F-75597r1_fix" },
           "check": {
             "system": "C-69839r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application and system logs.
 
           If an application shutdown event is not recorded in the logs, either initiate a shutdown event and review the logs after reestablishing access or request backup copies of the application or system logs that indicate shutdown events are being recorded.
@@ -15692,11 +15692,11 @@
           "fix": { "id": "F-75599r1_fix" },
           "check": {
             "system": "C-69841r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application design documentation indicates the application does not initiate connections to remote systems this requirement is not applicable.
 
           Network connections to systems used for support services such as DNS, AD, or LDAP may be stored in the system logs. These connections are applicable.
@@ -15754,11 +15754,11 @@
           "fix": { "id": "F-75601r1_fix" },
           "check": {
             "system": "C-69843r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application logs. When accessing data, the logs are most likely database logs.
 
           If the application design documents include specific data elements that require protection, ensure user access to those data elements are logged.
@@ -15810,11 +15810,11 @@
           "fix": { "id": "F-75603r1_fix" },
           "check": {
             "system": "C-69845r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review and monitor the application logs. When modifying data, the logs are most likely database logs.
 
           If the application design documents include specific data elements that require protection, ensure any changes to those specific data elements are logged. Otherwise, a random check is sufficient.
@@ -15868,11 +15868,11 @@
           "fix": { "id": "F-75605r1_fix" },
           "check": {
             "system": "C-69847r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Access the application logs and review the log entries for date and time. Each event written into the log must have a corresponding date and time stamp associated with it.
 
           If the audit logs do not have a corresponding date and time associated with each event, this is a finding.
@@ -15920,11 +15920,11 @@
           "fix": { "id": "F-75607r1_fix" },
           "check": {
             "system": "C-69849r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application administration and/or design documents.
 
           Identify key aspects of application architecture objects and components, e.g., Web Server, Application server, Database server.
@@ -15996,11 +15996,11 @@
           "fix": { "id": "F-75609r1_fix" },
           "check": {
             "system": "C-69851r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application is logging locally and does not utilize a centralized logging solution, this requirement is not applicable.
 
           Review system documentation and identify log location.  Access the application logs.
@@ -16056,11 +16056,11 @@
           "fix": { "id": "F-75611r1_fix" },
           "check": {
             "system": "C-69853r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system and application documentation to identify application operation and function.
 
           Access the application logs and review the logs to determine if the results of application operations are logged.
@@ -16114,11 +16114,11 @@
           "fix": { "id": "F-75613r1_fix" },
           "check": {
             "system": "C-69855r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system documentation and discuss application operation with application administrator.
 
           Identify application processes and application users.
@@ -16171,11 +16171,11 @@
           "fix": { "id": "F-75615r1_fix" },
           "check": {
             "system": "C-69857r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation and interview application administrator. Identify audit log locations and review audit logs.
 
           Access the system as a privileged user and execute privileged commands.
@@ -16231,11 +16231,11 @@
           "fix": { "id": "F-75617r1_fix" },
           "check": {
             "system": "C-69859r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.  Have the application administrator provide configuration settings that demonstrate transaction logging is enabled.
 
           Review configuration settings for the location of transaction specific logs and verify transaction logs exist and the log records access and changes to the data.
@@ -16285,11 +16285,11 @@
           "fix": { "id": "F-75619r1_fix" },
           "check": {
             "system": "C-69861r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to determine the logging architecture of the application.
 
           If the application is configured to log application event entries to a centralized, enterprise based logging solution that meets this requirement, the requirement is not applicable.
@@ -16345,11 +16345,11 @@
           "fix": { "id": "F-75621r1_fix" },
           "check": {
             "system": "C-69863r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation and interview application administrator.  Identify log functionality and locations of log files.  Obtain risk acceptance documentation and task scheduling information.
 
           If the application is configured to utilize a centralized logging solution, this requirement is not applicable.
@@ -16407,11 +16407,11 @@
           "fix": { "id": "F-75623r1_fix" },
           "check": {
             "system": "C-69865r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation and interview application administrator.
 
           Evaluate application log management processes and determine if the system is configured to utilize a centralized log management system for the hosting and management of application audit logs.
@@ -16461,11 +16461,11 @@
           "fix": { "id": "F-75625r1_fix" },
           "check": {
             "system": "C-69867r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system documentation and interview application administrator for details regarding logging configuration.
 
           If the application utilizes a centralized logging system that provides storage capacity alarming, this requirement is not applicable.
@@ -16527,11 +16527,11 @@
           "fix": { "id": "F-75627r1_fix" },
           "check": {
             "system": "C-69869r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system documentation and interview application administrator for details regarding application security categorization and logging configuration.
 
           If the application utilizes a centralized logging system that provides the real-time alarms, this requirement is not applicable.
@@ -16585,11 +16585,11 @@
           "fix": { "id": "F-75629r1_fix" },
           "check": {
             "system": "C-69871r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system documentation and interview application administrator for details regarding logging configuration.
 
           If the application utilizes a centralized logging system that provides the audit processing failure alarms, this requirement is not applicable.
@@ -16651,11 +16651,11 @@
           "fix": { "id": "F-75631r1_fix" },
           "check": {
             "system": "C-69873r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system documentation and interview application administrator for details regarding logging configuration.
 
           Identify application shut down capability regarding audit processing failure events.  Locate and verify application logging settings that specify the application will halt processing on detected audit failure.
@@ -16715,11 +16715,11 @@
           "fix": { "id": "F-75633r1_fix" },
           "check": {
             "system": "C-69875r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review system documentation and interview application administrator for details regarding application architecture and logging configuration.  Identify the application components, the logs that are associated with the components and the locations of the logs.
 
           If the application utilizes a centralized logging system that provides the capability to review the log files from one central location, this requirement is not applicable.
@@ -16769,11 +16769,11 @@
           "fix": { "id": "F-75635r1_fix" },
           "check": {
             "system": "C-69877r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components as well as the locations of the logs.
@@ -16840,11 +16840,11 @@
           "fix": { "id": "F-75637r1_fix" },
           "check": {
             "system": "C-69879r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -16913,11 +16913,11 @@
           "fix": { "id": "F-75639r1_fix" },
           "check": {
             "system": "C-69881r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -16986,11 +16986,11 @@
           "fix": { "id": "F-75641r1_fix" },
           "check": {
             "system": "C-69883r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation and interview application administrator for details regarding audit reduction (log record event filtering).
 
           Access the application with user rights sufficient to read and filter audit records.
@@ -17056,11 +17056,11 @@
           "fix": { "id": "F-75643r1_fix" },
           "check": {
             "system": "C-69885r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding audit reduction (log record event filtering).
 
           Access the application with user rights sufficient to read and filter audit records.
@@ -17118,11 +17118,11 @@
           "fix": { "id": "F-75645r1_fix" },
           "check": {
             "system": "C-69887r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding audit reduction (log record event filtering).
 
           Access the application with user rights sufficient to read and filter audit records.
@@ -17180,11 +17180,11 @@
           "fix": { "id": "F-75647r1_fix" },
           "check": {
             "system": "C-69889r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding audit reduction (log record event filtering).
 
           Access the application with user rights sufficient to read and filter audit records.
@@ -17242,11 +17242,11 @@
           "fix": { "id": "F-75649r1_fix" },
           "check": {
             "system": "C-69891r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding audit reduction (log record event filtering).
 
           Access the application with user rights sufficient to read and filter audit records.
@@ -17310,11 +17310,11 @@
           "fix": { "id": "F-75651r1_fix" },
           "check": {
             "system": "C-69893r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding audit reduction (log record event filtering).
 
           Access the application with user rights sufficient to read and filter audit records.
@@ -17376,11 +17376,11 @@
           "fix": { "id": "F-75653r1_fix" },
           "check": {
             "system": "C-69895r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -17436,11 +17436,11 @@
           "fix": { "id": "F-75655r1_fix" },
           "check": {
             "system": "C-69897r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -17494,11 +17494,11 @@
           "fix": { "id": "F-75657r1_fix" },
           "check": {
             "system": "C-69899r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator to determine where application audit logs are written and how time stamps are recorded.
 
           If the application utilizes the underlying OS for time stamping and time synchronization when writing the audit logs, this requirement is not applicable.
@@ -17554,11 +17554,11 @@
           "fix": { "id": "F-75659r1_fix" },
           "check": {
             "system": "C-69901r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -17624,11 +17624,11 @@
           "fix": { "id": "F-75661r1_fix" },
           "check": {
             "system": "C-69903r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -17694,11 +17694,11 @@
           "fix": { "id": "F-75663r1_fix" },
           "check": {
             "system": "C-69905r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture and logging configuration.
 
           Identify the application components and the logs associated with the components.
@@ -17760,11 +17760,11 @@
           "fix": { "id": "F-75665r1_fix" },
           "check": {
             "system": "C-69907r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture, audit methods, and audit tools.
 
           Identify the application audit tools and their locations.
@@ -17826,11 +17826,11 @@
           "fix": { "id": "F-75667r1_fix" },
           "check": {
             "system": "C-69909r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture, audit methods, and provided audit tools.
 
           Identify the application audit tools and their locations.
@@ -17890,11 +17890,11 @@
           "fix": { "id": "F-75669r1_fix" },
           "check": {
             "system": "C-69911r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture, audit methods and provided audit tools.
 
           Identify the application audit tools and their locations.
@@ -17954,11 +17954,11 @@
           "fix": { "id": "F-75671r1_fix" },
           "check": {
             "system": "C-69913r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify log functionality and locations of log files.
@@ -18012,11 +18012,11 @@
           "fix": { "id": "F-75673r1_fix" },
           "check": {
             "system": "C-69915r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture, audit methods, and provided audit tools.
 
           Identify the location of the application audit information.
@@ -18076,11 +18076,11 @@
           "fix": { "id": "F-76663r1_fix" },
           "check": {
             "system": "C-69917r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture, audit methods, and provided audit tools.
 
           Identify the location of the application audit tools.
@@ -18144,11 +18144,11 @@
           "fix": { "id": "F-75675r1_fix" },
           "check": {
             "system": "C-69919r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application administrator for details regarding application architecture, audit methods, and provided audit tools.
 
           Identify the location of the application audit tools.
@@ -18208,11 +18208,11 @@
           "fix": { "id": "F-75677r1_fix" },
           "check": {
             "system": "C-69921r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to determine the capabilities of the application as it relates to software installation or product function extension.
 
           Identify any software configuration change capabilities which are allowed by design and incorporated into the user interface. An example is utilizing a known software repository of tested and approved extensions, plugins or modules which can be used by application users to extend application features or functions.
@@ -18270,11 +18270,11 @@
           "fix": { "id": "F-75679r1_fix" },
           "check": {
             "system": "C-69923r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and configuration settings.
 
           Access the application configuration settings interface as a regular non-privileged user. Attempt to make configuration changes to the application.
@@ -18330,11 +18330,11 @@
           "fix": { "id": "F-75681r1_fix" },
           "check": {
             "system": "C-69925r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and configuration settings.
 
           Access the application configuration settings interface as a privileged user.
@@ -18398,11 +18398,11 @@
           "fix": { "id": "F-75683r1_fix" },
           "check": {
             "system": "C-69927r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to determine the process and commands used for patching the application.
 
           Access application configuration settings.
@@ -18452,11 +18452,11 @@
           "fix": { "id": "F-75685r1_fix" },
           "check": {
             "system": "C-69929r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify the application architecture.
 
           Identify application folders where application libraries are stored.
@@ -18531,11 +18531,11 @@
           "fix": { "id": "F-75687r1_fix" },
           "check": {
             "system": "C-69931r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation to understand application architecture.
 
           Interview the application administrator, obtain and review their application vulnerability scanning process.
@@ -18593,11 +18593,11 @@
           "fix": { "id": "F-75689r1_fix" },
           "check": {
             "system": "C-69933r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to determine if policies, rules, or restrictions exist regarding application usage or terms which authorize the conditions of application use.
 
           If the policy, terms, or conditions state there are no usage restrictions, this requirement is not applicable.
@@ -18653,11 +18653,11 @@
           "fix": { "id": "F-75691r1_fix" },
           "check": {
             "system": "C-69935r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application is not a configuration management or similar type of application designed to manage system processes and configurations, this requirement is not applicable.
 
           Review the application documentation and interview the application administrator to identify if application whitelisting specifying which applications or application subcomponents are allowed to execute is in use.
@@ -18711,11 +18711,11 @@
           "fix": { "id": "F-75693r1_fix" },
           "check": {
             "system": "C-69937r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application guidance, application requirements documentation, and interview the application administrator.
 
           Identify the application's operational requirements and what services the application is intended to provide users.
@@ -18771,11 +18771,11 @@
           "fix": { "id": "F-75695r1_fix" },
           "check": {
             "system": "C-69939r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and configuration.
 
           Interview the application administrator.
@@ -18849,11 +18849,11 @@
           "fix": { "id": "F-75697r1_fix" },
           "check": {
             "system": "C-69941r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application guidance and interview the application administrator.
 
           Identify the application user roles.
@@ -18929,11 +18929,11 @@
           "fix": { "id": "F-75699r1_fix" },
           "check": {
             "system": "C-69943r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application guidance and interview the application administrator.
 
           Identify the methods and manner in which application devices such as an XML gateway, SOA application gateway, or application firewall is allowed to access the application. Most devices themselves will not change role or authenticators once they are established but will need to periodically re-authenticate.
@@ -18990,11 +18990,11 @@
           "fix": { "id": "F-75701r1_fix" },
           "check": {
             "system": "C-69945r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to determine how organizational users access the application.
 
           If the application is publicly available, providing access to publicly releasable data and the users are non-organizational users such as individuals who no longer have a CAC (e.g., retirees) or  members of the public with no requirement for DoD credentials, this requirement is not applicable.
@@ -19057,11 +19057,11 @@
           "fix": { "id": "F-75703r1_fix" },
           "check": {
             "system": "C-69947r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           Ask the application administrator to present both their primary CAC and their Alt. Token.  Ask the application administrator to log on to the application using application relevant network based access methods.  Attempt to use both CAC and Alt. Tokens to authenticate to the application.
@@ -19113,11 +19113,11 @@
           "fix": { "id": "F-75705r1_fix" },
           "check": {
             "system": "C-69949r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -19171,11 +19171,11 @@
           "fix": { "id": "F-75707r1_fix" },
           "check": {
             "system": "C-69951r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -19241,11 +19241,11 @@
           "fix": { "id": "F-75709r1_fix" },
           "check": {
             "system": "C-69953r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -19310,11 +19310,11 @@
           "fix": { "id": "F-75711r1_fix" },
           "check": {
             "system": "C-69955r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           Ask the application administrator to present both their primary CAC and their Alt. Token.  Ask the application administrator to log on to the application using the local application console.
@@ -19379,11 +19379,11 @@
           "fix": { "id": "F-75713r1_fix" },
           "check": {
             "system": "C-69957r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -19443,11 +19443,11 @@
           "fix": { "id": "F-75715r1_fix" },
           "check": {
             "system": "C-69959r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, examine user accounts, group membership and interview the application administrator to identify group or shared accounts. Document the group or shared account information.
 
           If the application does not use group or shared accounts, this requirement is not applicable.
@@ -19503,11 +19503,11 @@
           "fix": { "id": "F-75717r1_fix" },
           "check": {
             "system": "C-69961r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation and interview application administrator to identify what authentication mechanisms are used when accessing the application.
 
           If the application is hosting publicly releasable information that does not require authentication, or if the application users are not eligible for a DoD CAC as per DoD 8520, this requirement is not applicable.
@@ -19577,11 +19577,11 @@
           "fix": { "id": "F-75719r1_fix" },
           "check": {
             "system": "C-69963r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify what authentication mechanisms are used when accessing the application.
 
           If the application is hosting publicly releasable information that does not require authentication, or if the application users are not eligible for a DoD CAC as per DoD 8520, this requirement is not applicable.
@@ -19651,11 +19651,11 @@
           "fix": { "id": "F-75721r1_fix" },
           "check": {
             "system": "C-69965r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Determine if mutual authentication is mandated by the data owner or by mission data protection objectives and data type.
@@ -19735,11 +19735,11 @@
           "fix": { "id": "F-75723r1_fix" },
           "check": {
             "system": "C-69967r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, implementation documentation and interview the application administrator.
 
           Identify if the application utilizes Web Services/Service-Oriented Architecture (SOA). Using the web services framework that has been implemented, have the application administrator identify the remote devices allowed to communicate to the service provider.
@@ -19801,11 +19801,11 @@
           "fix": { "id": "F-75725r1_fix" },
           "check": {
             "system": "C-69969r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation and interview application administrator.
 
           Identify application data elements and determine if the application is handling/processing non-releasable data.
@@ -19879,11 +19879,11 @@
           "fix": { "id": "F-75727r1_fix" },
           "check": {
             "system": "C-69971r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Access the user management interface for the application.
@@ -19955,11 +19955,11 @@
           "fix": { "id": "F-75729r1_fix" },
           "check": {
             "system": "C-69973r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20023,11 +20023,11 @@
           "fix": { "id": "F-75731r1_fix" },
           "check": {
             "system": "C-69975r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20091,11 +20091,11 @@
           "fix": { "id": "F-75733r1_fix" },
           "check": {
             "system": "C-69977r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20159,11 +20159,11 @@
           "fix": { "id": "F-75735r1_fix" },
           "check": {
             "system": "C-69979r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20227,11 +20227,11 @@
           "fix": { "id": "F-75737r1_fix" },
           "check": {
             "system": "C-69981r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20295,11 +20295,11 @@
           "fix": { "id": "F-75739r1_fix" },
           "check": {
             "system": "C-69983r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20384,11 +20384,11 @@
           "fix": { "id": "F-75741r1_fix" },
           "check": {
             "system": "C-69985r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20454,11 +20454,11 @@
           "fix": { "id": "F-75745r1_fix" },
           "check": {
             "system": "C-69989r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20526,11 +20526,11 @@
           "fix": { "id": "F-75747r1_fix" },
           "check": {
             "system": "C-69991r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20596,11 +20596,11 @@
           "fix": { "id": "F-75749r1_fix" },
           "check": {
             "system": "C-69993r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20666,11 +20666,11 @@
           "fix": { "id": "F-75751r1_fix" },
           "check": {
             "system": "C-69995r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20734,11 +20734,11 @@
           "fix": { "id": "F-75755r1_fix" },
           "check": {
             "system": "C-69999r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application uses passwords for user authentication.
 
           If the application does not use passwords, the requirement is not applicable.
@@ -20806,11 +20806,11 @@
           "fix": { "id": "F-76381r1_fix" },
           "check": {
             "system": "C-70621r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview application administrator.
 
           Determine if the application utilizes passwords.  If the application does not utilize passwords, the requirement is NA.
@@ -20864,11 +20864,11 @@
           "fix": { "id": "F-76383r1_fix" },
           "check": {
             "system": "C-70623r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify the user management functions of the application and create a test user account.
@@ -20926,11 +20926,11 @@
           "fix": { "id": "F-76385r1_fix" },
           "check": {
             "system": "C-70625r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the application architecture and interview the application administrator to identify the method employed by the application for validating certificates.
 
           Review the method to determine if a certification path that includes status information is constructed when certificate validation occurs.
@@ -20986,11 +20986,11 @@
           "fix": { "id": "F-76387r1_fix" },
           "check": {
             "system": "C-70627r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify where the application's private key is stored.
 
           If the application does not perform code signing or other cryptographic tasks requiring a private key, this requirement is not applicable.
@@ -21048,11 +21048,11 @@
           "fix": { "id": "F-76389r1_fix" },
           "check": {
             "system": "C-70629r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify how the application maps individual user certificates or group accounts to individual users.
 
           Access the application as a regular user while reviewing the application logs to determine if the application records the individual name of the user or if the application only includes certificate information.
@@ -21102,11 +21102,11 @@
           "fix": { "id": "F-76391r1_fix" },
           "check": {
             "system": "C-70631r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator to identify how the application checks certificate revocation.
 
           If the application resides on the SIPRNET and does not have access to the root CAs this requirement is not applicable.
@@ -21170,11 +21170,11 @@
           "fix": { "id": "F-76393r1_fix" },
           "check": {
             "system": "C-70633r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application admin to log on to the application.
 
           Observe the authentication process and verify any display feedback provided when the admin enters her/his password is obfuscated and not clear text.
@@ -21226,11 +21226,11 @@
           "fix": { "id": "F-76395r1_fix" },
           "check": {
             "system": "C-70635r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify if the application provides access to cryptographic modules and if access is required in order to manage cryptographic modules contained within the application.
@@ -21286,11 +21286,11 @@
           "fix": { "id": "F-76397r1_fix" },
           "check": {
             "system": "C-70637r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           If the application does not host non-organizational users, this requirement is not applicable.
@@ -21344,11 +21344,11 @@
           "fix": { "id": "F-76399r1_fix" },
           "check": {
             "system": "C-70639r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -21402,11 +21402,11 @@
           "fix": { "id": "F-76401r1_fix" },
           "check": {
             "system": "C-70641r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -21465,11 +21465,11 @@
           "fix": { "id": "F-76403r1_fix" },
           "check": {
             "system": "C-70643r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -21528,11 +21528,11 @@
           "fix": { "id": "F-76405r1_fix" },
           "check": {
             "system": "C-70645r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application access methods.
 
           If the application is not PK-enabled due to the hosted data being publicly releasable, this check is not applicable.
@@ -21592,11 +21592,11 @@
           "fix": { "id": "F-76407r1_fix" },
           "check": {
             "system": "C-70647r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application maintenance functions.
 
           If the application does not provide non-local maintenance and diagnostic capability, this requirement is not applicable.
@@ -21656,11 +21656,11 @@
           "fix": { "id": "F-76409r1_fix" },
           "check": {
             "system": "C-70649r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator. Identify if emergency accounts are ever used.
 
           If emergency accounts are not used, this requirement is not applicable.
@@ -21716,11 +21716,11 @@
           "fix": { "id": "F-76411r1_fix" },
           "check": {
             "system": "C-70651r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application maintenance functions.
 
           If the application does not provide non-local maintenance and diagnostic capability, this requirement is not applicable.
@@ -21778,11 +21778,11 @@
           "fix": { "id": "F-76413r1_fix" },
           "check": {
             "system": "C-70653r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application maintenance functions.
 
           If the application does not provide non-local maintenance and diagnostic capability, this requirement is not applicable.
@@ -21838,11 +21838,11 @@
           "fix": { "id": "F-76415r1_fix" },
           "check": {
             "system": "C-70655r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application maintenance functions.
 
           If the application does not provide non-local maintenance and diagnostic capability, this requirement is not applicable.
@@ -21922,11 +21922,11 @@
           "fix": { "id": "F-76417r1_fix" },
           "check": {
             "system": "C-70657r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify application maintenance functions.
 
           If the application does not provide non-local maintenance and diagnostic capability, this requirement is not applicable.
@@ -21988,11 +21988,11 @@
           "fix": { "id": "F-76419r1_fix" },
           "check": {
             "system": "C-70659r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator to determine how the application is configured to terminate network sessions after sessions have been idle for a period of time. Identify any documented exceptions.
 
           If the application does not provide non-local maintenance and diagnostic capability, this requirement is not applicable.
@@ -22064,11 +22064,11 @@
           "fix": { "id": "F-76421r1_fix" },
           "check": {
             "system": "C-70661r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and architecture.
 
           If the application is a COTS application and the vendor will not provide code review test results that demonstrate the application has been tested and is not susceptible to race conditions, the requirement is NA.
@@ -22130,11 +22130,11 @@
           "fix": { "id": "F-76423r1_fix" },
           "check": {
             "system": "C-70663r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator to determine how the application is designed and configured to terminate network connections at the end of the application session.
 
           Identify any documented exceptions to the requirement and review associated mitigations.
@@ -22233,11 +22233,11 @@
           "fix": { "id": "F-76425r1_fix" },
           "check": {
             "system": "C-70665r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, system security plan and interview the application administrator to determine if the application processes classified data.
 
           If the application does not process classified data, this requirement is not applicable.
@@ -22295,11 +22295,11 @@
           "fix": { "id": "F-76427r1_fix" },
           "check": {
             "system": "C-70667r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify the cryptographic modules used by the application.
 
           Review the application components and the application requirements to determine if the application components are distributable and require digital signatures.
@@ -22355,11 +22355,11 @@
           "fix": { "id": "F-76429r1_fix" },
           "check": {
             "system": "C-70669r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application components and the application requirements to determine if the application is capable of generating cryptographic hashes.
 
           Review the application documentation and interview the application administrator to identify the cryptographic modules used by the application.
@@ -22411,11 +22411,11 @@
           "fix": { "id": "F-76431r1_fix" },
           "check": {
             "system": "C-70671r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the system administrator, review the application components, and the application requirements to determine if the application processes data requiring cryptographic protection.
 
           Review the application documentation and interview the application administrator to identify the cryptographic modules used by the application.
@@ -22467,11 +22467,11 @@
           "fix": { "id": "F-76433r1_fix" },
           "check": {
             "system": "C-70673r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the system administrator, review the application components, and the application requirements to determine if the application uses SAML assertions.
 
           If the application does not use SAML assertions, the requirement is not applicable.
@@ -22527,11 +22527,11 @@
           "fix": { "id": "F-76435r1_fix" },
           "check": {
             "system": "C-70675r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Review the design documents and the interfaces used by the application.
@@ -22583,11 +22583,11 @@
           "fix": { "id": "F-76437r1_fix" },
           "check": {
             "system": "C-70677r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify when session cookies are created.
 
           Identify any mitigating controls the application developer may have implemented. Examples include utilizing a separate Web Application Firewall that is configured to provide this capability or configuring the web server with Mod_Security or ESAPI WAF with the HTTPOnly flag directives enabled.
@@ -22659,11 +22659,11 @@
           "fix": { "id": "F-76439r1_fix" },
           "check": {
             "system": "C-70679r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify when session cookies are created.
 
           If vulnerability scan results are available, reference the most recent vulnerability scan results.
@@ -22728,11 +22728,11 @@
           "fix": { "id": "F-76441r1_fix" },
           "check": {
             "system": "C-70681r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and configuration.
 
           Interview the application administrator and obtain implementation documentation identifying system architecture.
@@ -22788,11 +22788,11 @@
           "fix": { "id": "F-76443r1_fix" },
           "check": {
             "system": "C-70683r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify how the application destroys session IDs.
@@ -22850,11 +22850,11 @@
           "fix": { "id": "F-76445r1_fix" },
           "check": {
             "system": "C-70685r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify how the application generates user session IDs.
 
           Application session testing is required in order to verify this requirement.
@@ -22904,11 +22904,11 @@
           "fix": { "id": "F-76447r1_fix" },
           "check": {
             "system": "C-70687r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify how the application validates session IDs.
@@ -22960,11 +22960,11 @@
           "fix": { "id": "F-76449r1_fix" },
           "check": {
             "system": "C-70689r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify how the application generates session IDs.
@@ -23024,11 +23024,11 @@
           "fix": { "id": "F-76451r1_fix" },
           "check": {
             "system": "C-70691r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify how the application generates user session IDs.
 
           Application session testing is required in order to verify this requirement.
@@ -23086,11 +23086,11 @@
           "fix": { "id": "F-76453r1_fix" },
           "check": {
             "system": "C-70693r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify if the application implements encryption, key exchange, digital signature, or hash functionality.
@@ -23148,11 +23148,11 @@
           "fix": { "id": "F-76455r1_fix" },
           "check": {
             "system": "C-70695r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify certificate location.
 
           Internet Explorer can be used to view certificate information:
@@ -23212,11 +23212,11 @@
           "fix": { "id": "F-76457r1_fix" },
           "check": {
             "system": "C-70697r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application design documentation, vulnerability scanner reports and interview application administrator to identify application components.
 
           The design of the application should account for the following:
@@ -23282,11 +23282,11 @@
           "fix": { "id": "F-76459r1_fix" },
           "check": {
             "system": "C-70699r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review application documentation, interview application administrator to identify how the application logs error events.
 
           The application operational requirements documentation should provide the specific information that must be preserved in order to return the application back into operation as quickly and efficiently as possible. The application administrator will need to identify and provide the information based upon operational requirements documents.
@@ -23344,11 +23344,11 @@
           "fix": { "id": "F-76461r1_fix" },
           "check": {
             "system": "C-70701r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify the data processed by the application and the accompanying data protection requirements.
@@ -23410,11 +23410,11 @@
           "fix": { "id": "F-76463r1_fix" },
           "check": {
             "system": "C-70703r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the documentation and interview the application administrator.
 
           Identify the data processed by the application and the accompanying data protection requirements.
@@ -23480,11 +23480,11 @@
           "fix": { "id": "F-76465r1_fix" },
           "check": {
             "system": "C-70705r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify the data processed by the application and the accompanying data protection requirements.
@@ -23544,11 +23544,11 @@
           "fix": { "id": "F-76467r1_fix" },
           "check": {
             "system": "C-70707r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify if the application utilizes access controls.
@@ -23600,11 +23600,11 @@
           "fix": { "id": "F-76469r1_fix" },
           "check": {
             "system": "C-70709r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the architecture documentation and interview the application administrator.
 
           Identify if the application architecture provides the capability to sandbox executing processes so as to prevent a process in one application domain from sharing another application domain.
@@ -23656,11 +23656,11 @@
           "fix": { "id": "F-76471r1_fix" },
           "check": {
             "system": "C-70711r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify if the application shares information resources via file sharing protocol or if the application includes configuration settings that provide access to data files on the hard drive.
 
           Also determine if the application transfers data via shared system resources.
@@ -23726,11 +23726,11 @@
           "fix": { "id": "F-76473r1_fix" },
           "check": {
             "system": "C-70713r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application architecture documentation and interview the application administrator to identify what steps have been taken to protect the XML aspect of the application from DoS attacks.
 
           If the application does not contain or utilize XML, the requirement is not applicable.
@@ -23796,11 +23796,11 @@
           "fix": { "id": "F-76475r1_fix" },
           "check": {
             "system": "C-70715r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Ask the application administrator if any anti-DoS technology or anti-DoS emergency response services are deployed to protect the application.
@@ -23854,11 +23854,11 @@
           "fix": { "id": "F-76477r1_fix" },
           "check": {
             "system": "C-70717r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application administrator and review the system documentation to determine if the application has been designated as a high availability system and if the application is designed to operate in a high availability environment.
 
           If the application has not been designated as a high availability system, this requirement is not applicable.
@@ -23918,11 +23918,11 @@
           "fix": { "id": "F-76479r1_fix" },
           "check": {
             "system": "C-70719r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application and system administrators.
 
           Verify XML-based web services are used within the application.
@@ -23986,11 +23986,11 @@
           "fix": { "id": "F-76481r1_fix" },
           "check": {
             "system": "C-70721r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify application clients, servers and associated network connections including application networking ports.
@@ -24052,11 +24052,11 @@
           "fix": { "id": "F-76483r1_fix" },
           "check": {
             "system": "C-70723r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the application architecture designs and interview the application administrator.
 
           Ask the application admin to identify the network path taken by the application data and demonstrate the application support integrity mechanisms for transmission of both incoming and outgoing files and any transmitted data.
@@ -24106,11 +24106,11 @@
           "fix": { "id": "F-76485r1_fix" },
           "check": {
             "system": "C-70725r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify web servers and associated network connections.
@@ -24160,11 +24160,11 @@
           "fix": { "id": "F-76487r1_fix" },
           "check": {
             "system": "C-70727r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify web servers and associated network connections.
@@ -24220,11 +24220,11 @@
           "fix": { "id": "F-76489r1_fix" },
           "check": {
             "system": "C-70729r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application system documentation and interview the application administrators.
 
           Ask them to demonstrate how the web server and application configuration does not disclose any information about the application which could be used by an attacker to gain access to the application.
@@ -24284,11 +24284,11 @@
           "fix": { "id": "F-76491r1_fix" },
           "check": {
             "system": "C-70731r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview application administrator and review application documentation to identify and familiarize with the application features and functions.
 
           Request most recent code review and vulnerability scan results.  Review test configuration to ensure testing for hidden fields was conducted.  Review test results for incidents of hidden data fields.
@@ -24354,11 +24354,11 @@
           "fix": { "id": "F-76493r1_fix" },
           "check": {
             "system": "C-70733r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": {
+            "checkcontent": {
               "text": [
                 "
           Review the application documentation and the vulnerability assessment scan results from automated vulnerability assessment tools.
@@ -24430,11 +24430,11 @@
           "fix": { "id": "F-76495r1_fix" },
           "check": {
             "system": "C-70735r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the code review reports and the vulnerability assessment scan results from the automated vulnerability assessment tools.
 
           Verify scan configuration settings include web-based application settings which include XSS tests.
@@ -24510,11 +24510,11 @@
           "fix": { "id": "F-76497r1_fix" },
           "check": {
             "system": "C-70737r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and the system configuration settings.
 
           Interview the application administrator for details regarding security assessment including automated code review and vulnerability scans conducted to test for command injection.
@@ -24582,11 +24582,11 @@
           "fix": { "id": "F-76499r1_fix" },
           "check": {
             "system": "C-70739r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding security assessment code reviews or vulnerability scans.
 
           Review the scan results from the entire application. This can be provided as results from an automated code review or a vulnerability scanning tool.
@@ -24668,11 +24668,11 @@
           "fix": { "id": "F-76501r1_fix" },
           "check": {
             "system": "C-70741r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the code review reports and the vulnerability assessment scan results from automated vulnerability assessment tools.
 
           Verify scan configuration settings include input validation and fuzzing tests.
@@ -24744,11 +24744,11 @@
           "fix": { "id": "F-76503r1_fix" },
           "check": {
             "system": "C-70743r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Request the latest vulnerability scan test results.
@@ -24812,11 +24812,11 @@
           "fix": { "id": "F-76505r1_fix" },
           "check": {
             "system": "C-70745r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, the application architecture and interview the application administrator.
 
           Identify any XML-based web services or XML functionality performed by the application.
@@ -24910,11 +24910,11 @@
           "fix": { "id": "F-76507r1_fix" },
           "check": {
             "system": "C-70747r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           If working with the developer, request documentation on their development processes and what their standard operating procedure is for sanitizing all application input.
@@ -24978,11 +24978,11 @@
           "fix": { "id": "F-76509r1_fix" },
           "check": {
             "system": "C-70749r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding how the application displays error messages.
 
           Utilize the application as a non-privileged user and attempt to execute functionality that will generate error messages.
@@ -25040,11 +25040,11 @@
           "fix": { "id": "F-76511r1_fix" },
           "check": {
             "system": "C-70751r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator for details regarding how the application displays error messages.
 
           Authenticate to the application as a non-privileged user and attempt to execute functionality that will generate error messages.
@@ -25118,11 +25118,11 @@
           "fix": { "id": "F-76513r1_fix" },
           "check": {
             "system": "C-70753r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and architecture.
 
           Interview the application admin and identify the most recent code testing and analysis that has been conducted.
@@ -25170,11 +25170,11 @@
           "fix": { "id": "F-76515r1_fix" },
           "check": {
             "system": "C-70755r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application admin to identify application locations on system.
 
           Identify application versions that are installed on the system.
@@ -25228,11 +25228,11 @@
           "fix": { "id": "F-76517r1_fix" },
           "check": {
             "system": "C-70757r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation to identify application versions and patching.
 
           Interview the application administrator and inquire about patching process.
@@ -25284,11 +25284,11 @@
           "fix": { "id": "F-76519r1_fix" },
           "check": {
             "system": "C-70759r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator to determine if the application performs security function testing.
 
           If the application is not designed or intended to perform security function testing, the requirement is not applicable.
@@ -25344,11 +25344,11 @@
           "fix": { "id": "F-76521r1_fix" },
           "check": {
             "system": "C-70761r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator to determine if the application performs security function testing.
 
           If the application is not designed or intended to perform security function testing, the requirement is not applicable.
@@ -25404,11 +25404,11 @@
           "fix": { "id": "F-76523r1_fix" },
           "check": {
             "system": "C-70763r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the system administrator to determine if the application performs security function testing.
 
           If the application is not designed or intended to perform security function testing, the requirement is not applicable.
@@ -25470,11 +25470,11 @@
           "fix": { "id": "F-76525r1_fix" },
           "check": {
             "system": "C-70765r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify any mobile code that is provided by the application for client consumption.
 
           If the application does not contain mobile code, or if the mobile code executes within the client browser, this is not applicable.
@@ -25532,11 +25532,11 @@
           "fix": { "id": "F-76527r1_fix" },
           "check": {
             "system": "C-70767r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative to verify that a documented process exists for user and system account creation, termination, and expiration.
 
           Obtain a list of recently departed personnel and verify that their accounts were removed or deactivated on all systems in a timely manner (e.g., less than two days).
@@ -25609,11 +25609,11 @@
           "fix": { "id": "F-76529r1_fix" },
           "check": {
             "system": "C-70769r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation.
 
           Review the application data protection requirements and identify if all data types hosted on server are identical.
@@ -25663,11 +25663,11 @@
           "fix": { "id": "F-76531r1_fix" },
           "check": {
             "system": "C-70771r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Verify a process is in place to retain application audit log files for one year and five years for SAMI data.
 
           If audit logs have not been retained for one year or five years for SAMI data, this is a finding.
@@ -25713,11 +25713,11 @@
           "fix": { "id": "F-76533r1_fix" },
           "check": {
             "system": "C-70773r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative and ask for the system documentation that states how often audit logs are reviewed. Also, determine when the audit logs were last reviewed.
 
           If the application representative cannot provide system documentation identifying how often the auditing logs are reviewed, or has not audited within the last time period stated in the system documentation, this is a finding.
@@ -25759,11 +25759,11 @@
           "fix": { "id": "F-76537r1_fix" },
           "check": {
             "system": "C-70777r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative and review the SOPs to ensure that violations of IA policies are analyzed and reported.
 
           If there is no policy for reporting IA violations, this is a finding.
@@ -25825,11 +25825,11 @@
           "fix": { "id": "F-76539r1_fix" },
           "check": {
             "system": "C-70779r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative to provide vulnerability test procedures and vulnerability test results.
 
           Ask the application representative to provide the settings that were used to conduct the vulnerability testing.
@@ -25891,11 +25891,11 @@
           "fix": { "id": "F-76541r1_fix" },
           "check": {
             "system": "C-70781r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Verify documented AO approval for all open source, public domain, shareware, freeware, and other software products/libraries with limited or no warranty that are required for mission accomplishment.
 
           Review the DoD policies regarding Open Source Software products:
@@ -25949,11 +25949,11 @@
           "fix": { "id": "F-76543r1_fix" },
           "check": {
             "system": "C-70783r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and the system diagrams detailing application system to system and service to service communication methods.
 
           Interview the application admin to identify any application web services that are deployed by the application.
@@ -26005,11 +26005,11 @@
           "fix": { "id": "F-76545r1_fix" },
           "check": {
             "system": "C-70785r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Ask the application administrator or examine the application documentation to determine the file location of the application configuration settings and user data.
@@ -26065,11 +26065,11 @@
           "fix": { "id": "F-76547r1_fix" },
           "check": {
             "system": "C-70787r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation to identify application name, features and version.
 
           Identify if a DoD STIG or NSA guide is available.
@@ -26126,11 +26126,11 @@
           "fix": { "id": "F-76549r1_fix" },
           "check": {
             "system": "C-70789r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           All application ports, protocols, and services needed for application operation need to be in compliance with the DoD Ports and Protocols guidance.
 
           Check:
@@ -26190,11 +26190,11 @@
           "fix": { "id": "F-76553r1_fix" },
           "check": {
             "system": "C-70791r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Verify registration of the application and ports in the Ports and Protocols Database for a production site.
 
           If the application requires registration, and is not registered or all ports used have not been identified in the database, this is a finding.
@@ -26244,11 +26244,11 @@
           "fix": { "id": "F-76575r1_fix" },
           "check": {
             "system": "C-70793r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application system documentation and interview the application administrator.
 
           Identify if the STIG is being applied to application developers or organizations responsible for code management or who have and operate an application CM repository. If this is not the case, the requirement is not applicable.
@@ -26302,11 +26302,11 @@
           "fix": { "id": "F-76577r1_fix" },
           "check": {
             "system": "C-70795r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application system documentation.
 
           Interview the application administrator.
@@ -26422,11 +26422,11 @@
           "fix": { "id": "F-76579r1_fix" },
           "check": {
             "system": "C-70797r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview ISSM or application administrator.
 
           Identify if development of the application is done in house and if application configuration management repository exists.
@@ -26557,11 +26557,11 @@
           "fix": { "id": "F-76581r1_fix" },
           "check": {
             "system": "C-70799r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative and determine if application development is performed on site by the organization.
 
           If application development is not done in house, the requirement is not applicable.
@@ -26619,11 +26619,11 @@
           "fix": { "id": "F-76583r5_fix" },
           "check": {
             "system": "C-70801r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Verify the application environment is compliant with all DoD IPv6 Standards Profile for IPv6 Capable Products guidance for servers.
 
           If the application environment is not compliant with all DoD IPv6 Standards Profile for IPv6 Capable Products guidance for servers, this is a finding.
@@ -26665,11 +26665,11 @@
           "fix": { "id": "F-76585r1_fix" },
           "check": {
             "system": "C-70803r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative to review the servers where the application is deployed.
 
           Ask what other applications are deployed on those servers.
@@ -26715,11 +26715,11 @@
           "fix": { "id": "F-76587r1_fix" },
           "check": {
             "system": "C-70805r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review disaster recovery/continuity plans.
 
           For high risk applications, verify the disaster plan exists and provides for the smooth transfer of all mission or business essential functions to an alternate site for the duration of an event with little or no loss of operational continuity.
@@ -26771,11 +26771,11 @@
           "fix": { "id": "F-76589r1_fix" },
           "check": {
             "system": "C-70807r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review disaster recovery plan.
 
           Verify that a disaster recovery plan is in place for the application.
@@ -26821,11 +26821,11 @@
           "fix": { "id": "F-76591r1_fix" },
           "check": {
             "system": "C-70809r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application and system admins and review documented backup procedures.
 
           Check the following based on the risk level of the application.
@@ -26903,11 +26903,11 @@
           "fix": { "id": "F-76593r1_fix" },
           "check": {
             "system": "C-70811r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           When reviewing a COTS or GOTS application, verify that a back-up copy of the software is stored in a fire rated container or is stored separately (offsite) from the operational environment.
 
           Determine if application development is done in-house.
@@ -26953,11 +26953,11 @@
           "fix": { "id": "F-76595r1_fix" },
           "check": {
             "system": "C-70813r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Validate that backup and recovery procedures incorporate protection of the backup and restoration assets.
 
           Verify assets housing the backup data (e.g., SANS, tapes, backup directories, software) and the assets used for restoration (e.g., equipment and system software) are included in the backup and recovery procedures.
@@ -27001,11 +27001,11 @@
           "fix": { "id": "F-76597r1_fix" },
           "check": {
             "system": "C-70815r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application does not implement key exchange, this check is not applicable.
 
           Identify all application or supporting infrastructure features using key exchange.
@@ -27051,11 +27051,11 @@
           "fix": { "id": "F-76599r1_fix" },
           "check": {
             "system": "C-70817r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and any available source code; this includes configuration files such as global.asa, if present, scripts, HTML files, and any ASCII files.
 
           Identify any instances of passwords, certificates, or sensitive data included in code.
@@ -27103,11 +27103,11 @@
           "fix": { "id": "F-76601r1_fix" },
           "check": {
             "system": "C-70819r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Ask the application representative for the application’s classification guide. This guide should document the data elements and their classification.
@@ -27171,11 +27171,11 @@
           "fix": { "id": "F-76603r1_fix" },
           "check": {
             "system": "C-70821r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the review is not being done with the developer of the application, this requirement is not applicable.
 
           Ask the application representative to provide tests plans, procedures, and results to ensure they are updated for each application release or updates to system patches.
@@ -27231,11 +27231,11 @@
           "fix": { "id": "F-76605r1_fix" },
           "check": {
             "system": "C-70823r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative to demonstrate their cryptographic hash validation process or provide process documentation. The validation process will vary based upon the operating system used as there are numerous clients available that will display a file's cryptographic hash for validation purposes.
 
           Linux operating systems include the \"sha256sum\" utility. For Linux systems using sha256sum command syntax is:  sha256sum [OPTION]... [FILE]...
@@ -27291,11 +27291,11 @@
           "fix": { "id": "F-76607r1_fix" },
           "check": {
             "system": "C-70825r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the organization chart and interview the admin staff.
 
           Identify personnel designated as application security testers.
@@ -27341,11 +27341,11 @@
           "fix": { "id": "F-76609r1_fix" },
           "check": {
             "system": "C-70827r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the process documentation and interview the admin staff.
 
           Identify if testing procedures exist and if they include annual testing to ensure the application remains in a secure state on initialization, shutdown, and aborts.
@@ -27421,11 +27421,11 @@
           "fix": { "id": "F-76611r1_fix" },
           "check": {
             "system": "C-70829r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to apply to developers or organizations that are doing the application development work and have the responsibility for maintaining the application source code.  Otherwise, the requirement is not applicable.
 
           Review the system documentation and ask the application representative to describe the code review process or provide documentation outlining the organizations code review process.
@@ -27495,11 +27495,11 @@
           "fix": { "id": "F-76613r1_fix" },
           "check": {
             "system": "C-70831r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the organization does not do or manage the application development work for the application, this requirement is not applicable.
 
           Ask the application representative to provide code coverage statistics maintained for the application.
@@ -27547,11 +27547,11 @@
           "fix": { "id": "F-76615r1_fix" },
           "check": {
             "system": "C-70833r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to apply to developers or organizations that are doing application development work.
 
           If application development is not being done or managed by the organization, this requirement is not applicable.
@@ -27601,11 +27601,11 @@
           "fix": { "id": "F-76617r1_fix" },
           "check": {
             "system": "C-70835r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application and system administrators and determine if changes to the application are assessed for IA impact prior to implementation.
 
           Review the CCB process documentation to ensure potential changes to the application are evaluated to determine impact. An informal group may be tasked with impact assessment of upcoming version changes.
@@ -27657,11 +27657,11 @@
           "fix": { "id": "F-76619r1_fix" },
           "check": {
             "system": "C-70837r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to apply to developers or organizations that are doing application development work. If the organization managing the application is not performing or managing the development of the application the requirement is not applicable.
 
           Ask the application representative to demonstrate how security flaws are integrated into the project plan.
@@ -27728,11 +27728,11 @@
           "fix": { "id": "F-76621r1_fix" },
           "check": {
             "system": "C-70839r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to apply to developers or organizations that are doing application development work. If the organization operating the application under review is not doing the development or managing the development of the application, the requirement is not applicable.
 
           Ask the application representative about their coding standards.  Ask for a coding standards document, review the document and ask the developers if they are aware of and if they use the coding standards.  Make a determination if the application developers follow the coding standard.
@@ -27796,11 +27796,11 @@
           "fix": { "id": "F-76623r1_fix" },
           "check": {
             "system": "C-70841r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to apply to developers or organizations that are doing application development work. If the organization operating the application is not doing the development or managing the development of the application, the requirement is not applicable.
 
           Ask the application representative for the design document for the application. Review the design document.
@@ -27875,11 +27875,11 @@
           "fix": { "id": "F-76625r1_fix" },
           "check": {
             "system": "C-70843r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to apply to developers or organizations that are doing application development work.
 
           If the organization operating the application is not doing the development or is not managing the development of the application, the requirement is not applicable.
@@ -27944,11 +27944,11 @@
           "fix": { "id": "F-76627r1_fix" },
           "check": {
             "system": "C-70845r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation, code review reports and the results from static code analysis tools.
 
           Identify the most recent security scans and code analysis testing conducted.  Verify testing configuration includes tests for error handling issues.
@@ -28013,11 +28013,11 @@
           "fix": { "id": "F-76629r1_fix" },
           "check": {
             "system": "C-70847r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application is a COTS application and the development team is not accessible to interview this requirement is not applicable.
 
           Interview the application development team members.  Request and review the application incident response plan.
@@ -28068,11 +28068,11 @@
           "fix": { "id": "F-76631r1_fix" },
           "check": {
             "system": "C-70849r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator.
 
           Identify all software components.
@@ -28130,11 +28130,11 @@
           "fix": { "id": "F-76633r1_fix" },
           "check": {
             "system": "C-70851r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative and determine if all the application components are under maintenance contract. The entire application may be covered by a single maintenance agreement. The application should be decommissioned if maintenance or security support is no longer being provided by the vendor or by the development staff of a custom developed application.
 
           If the application or any of the application components are not being maintained, this is a finding.
@@ -28180,11 +28180,11 @@
           "fix": { "id": "F-76635r1_fix" },
           "check": {
             "system": "C-70853r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative to determine if provisions are in place to notify users when an application is decommissioned.
 
           If provisions are not in place to notify users when an application is decommissioned, this is a finding.
@@ -28230,11 +28230,11 @@
           "fix": { "id": "F-76637r1_fix" },
           "check": {
             "system": "C-70855r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and identify if the application creates or utilizes built-in accounts.
 
           Examine the account list for obvious examples (e.g., accounts with vendor names such as Oracle or Tivoli).
@@ -28284,11 +28284,11 @@
           "fix": { "id": "F-76639r1_fix" },
           "check": {
             "system": "C-70857r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Identify the application name and version and do an Internet search for the product name and the string \"default password\".
 
           If default passwords are found, attempt to authenticate with the published default passwords.
@@ -28363,11 +28363,11 @@
           "fix": { "id": "F-76641r1_fix" },
           "check": {
             "system": "C-70859r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application administrator.  Request and review the Application Configuration Guide.
 
           Verify the configuration guide at a minimum provides configuration details for the following examples.  The examples provided herein are not intended to limit the configuration settings that are documented in the guide.
@@ -28436,11 +28436,11 @@
           "fix": { "id": "F-76643r1_fix" },
           "check": {
             "system": "C-70861r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           If the application does not process classified information, this check is not applicable.
 
           The application may already be covered by a higher level program or other classification guide. If the classification guide is not written specifically to the application, the sensitive application data should be reviewed to determine whether it is contained in the classification guide.
@@ -28547,11 +28547,11 @@
           "fix": { "id": "F-76645r1_fix" },
           "check": {
             "system": "C-70863r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview application administrator.
 
           Determine what mobile code types are used by the application.
@@ -28599,11 +28599,11 @@
           "fix": { "id": "F-76647r1_fix" },
           "check": {
             "system": "C-70865r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and identify the existence of databases within the application architecture.
 
           Ask the application admin to identify when data exports from this database are imported to test or development databases.
@@ -28651,11 +28651,11 @@
           "fix": { "id": "F-76649r1_fix" },
           "check": {
             "system": "C-70867r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Ask the application representative for the threat model document.
 
           Examine the threat model document and determine if DoS attacks are specified as a threat.
@@ -28703,11 +28703,11 @@
           "fix": { "id": "F-76651r1_fix" },
           "check": {
             "system": "C-70869r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the system documentation and interview the application and system administrators.
 
           Examine the system to determine if an automated, continuous on-line monitoring and audit trail creation capability is present with the capability to immediately alert personnel of any unusual or inappropriate activity with potential IA implications, and with a user configurable capability to automatically disable the system if serious IA violations are detected.
@@ -28755,11 +28755,11 @@
           "fix": { "id": "F-76653r1_fix" },
           "check": {
             "system": "C-70871r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the components of the application.
 
           Ask the application representative to demonstrate deployment personnel are registered to receive notifications for update notification for all of the application components including custom-developed software, libraries and third-party tools.
@@ -28813,11 +28813,11 @@
           "fix": { "id": "F-76655r1_fix" },
           "check": {
             "system": "C-70873r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the components of the application.  Interview the application administrator.
 
           Have the application administrator demonstrate the application notification process that occurs when a security patch or product update is available.
@@ -28867,11 +28867,11 @@
           "fix": { "id": "F-76657r1_fix" },
           "check": {
             "system": "C-70875r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Interview the application representative and determine if the application is publicly accessible.
 
           If the application is publicly accessible and traffic is not being routed through a DMZ, this is a finding.
@@ -28917,11 +28917,11 @@
           "fix": { "id": "F-76659r1_fix" },
           "check": {
             "system": "C-70877r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           Review the application documentation and interview the application administrator to identify where log records are stored.
 
           Access log records then log on to the application as a regular user from one workstation. Take note of workstation IP address and confirm the address as the source workstation.
@@ -28984,11 +28984,11 @@
           "fix": { "id": "F-76661r1_fix" },
           "check": {
             "system": "C-70879r1_chk",
-            "check-content-ref": {
+            "checkcontentref": {
               "name": "M",
               "href": "DPMS_XCCDF_Benchmark_Application_Security_Development_STIG.xml"
             },
-            "check-content": "
+            "checkcontent": "
           This requirement is meant to be applied to developers and development teams only, otherwise, this requirement is not applicable.
 
           Interview the application representative.

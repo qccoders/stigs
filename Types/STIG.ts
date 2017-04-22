@@ -33,7 +33,7 @@ class Profile
     id: string;
     title: string;
     description: string;
-    select: List<Select>;
+    select: Select[];
 }
 
 class Reference2
